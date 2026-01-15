@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+
+<body>
+    <nav class ="navbar">
+      <div class="flex items-center cursor-pointer" onclick="router('home')">
+    <div class="custom-logo-box">
+        <i class="custom-logo-icon ph ph-lightning-fill"></i>
+    </div>
+    <div>
+        <h1 class="text-xl font-bold text-slate-900 tracking-tight">TechFuture<span class="text-indigo-600">2026</span></h1>
+        <p class="text-xs text-slate-500 uppercase tracking-wider">Istanbul Edition</p>
+    </div>
+</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="speakers.html">Speakers</a></li>
+           <li><a href="register.html" class="register-btn">Register</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="hero_section">
+            <h2>Discover Amazing Local Events</h2>
+            <p>Your guide to the best concerts, workshops, and gatherings happening near you this season.</p>
+        </section>
+       <section id="upcoming">
+  <h2>Upcoming Events</h2>
+
+  <div class="event-card">
+    <h3>Cloud Computing Summit</h3>
+    <p><strong>Date:</strong> March 12, 2026</p>
+    <p>Explore the future of cloud infrastructure and DevOps.</p>
+   <button class="register-btn" onclick="window.location.href='register.html'">Register Now</button>
+    </div>
+
+  <div class="event-card">
+    <h3>Cybersecurity Workshop</h3>
+    <p><strong>Date:</strong> April 5, 2026</p>
+    <p>Hands-on training to secure modern applications and networks.</p>
+     <button class="register-btn" onclick="window.location.href='register.html'">Register Now</button>
+  </div>
+
+  <div class="event-card">
+    <h3>Startup Pitch Night</h3>
+    <p><strong>Date:</strong> May 20, 2026</p>
+    <p>Watch top early founders pitch their next big ideas.</p>
+        <button class="register-btn" onclick="window.location.href='register.html'">Register Now</button>
+  </div>
+</section>
+<section class="why-join container">
+    <h2>Why Join Us?</h2>
+    <p class="intro">
+        TechFuture 2026 is a chance to learn new skills, discover modern technologies, 
+        and connect with people who share your passion for innovation. Whether you’re 
+        a beginner or experienced, you’ll find something valuable.
+    </p>
+
+    <ul class="benefits">
+        <li>
+            <span class="dot"></span>
+            Learn practical tech skills you can apply immediately.
+        </li>
+        <li>
+            <span class="dot"></span>
+            Join hands-on sessions designed for different experience levels.
+        </li>
+        <li>
+            <span class="dot"></span>
+            Meet developers, designers, and creators from around the world.
+        </li>
+    </ul>
+</section>
+
+
+    <section id="sponsors">
+        <h2>Our Sponsors</h2>
+
+         <div class="sponsor-card">
+         <h3>Microsoft</h3>
+            <p>Leading cloud computing partner.</p>
+             </div>
+
+        <div class="sponsor-card">
+            <h3>Google Cloud</h3>
+             <p>Supporting innovation and infrastructure.</p>
+         </div>
+
+        <div class="sponsor-card">
+             <h3>OpenAI</h3>
+             <p>AI research and developer tools sponsor.</p>
+            </div>
+
+    </section>
+
+
+
+    </main>
+    <footer class ="custom-footer">
+        <div class="footer-content">
+        &copy; 2024 TechFuture. All rights reserved. |
+        <span class="register-link" onclick="showMessage('Register here.')">Register</span>
+    </div>
+    </footer> 
+</body>
+</html>
+    
+   

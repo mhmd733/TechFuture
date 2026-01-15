@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px; 
+    padding-bottom:20px;
+    background-color: white;
+}
+
+
+
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    align-items: center;
+}
+
+.navbar li {
+    padding: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:grey; 
+}
+
+
+
+#hero_section {
+    background: url('../images/herosectionbg2.png') no-repeat center center/cover;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column; /* Stacks the content (h2, p, button) vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center;
+    padding: 5px; /* Add some padding around the edges */
+}
+
+
+#hero_section h2 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#hero_section p {
+    font-size: 1.25em;
+    color: #f0f0f0;
+    max-width: 600px;
+    margin-bottom: 1.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+#upcoming {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#upcoming h2 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.register-btn {
+    background-color: #3a86ff;   
+    color: white !important;                  
+    padding: 10px 20px;           
+    border: none;                 
+    border-radius: 999px;          
+    font-size: 0.9rem;             
+    font-weight: 600;            
+    cursor: pointer;             
+    margin-top: 15px;             
+}
+
+.register-btn:hover {
+    background-color: #1f6fe0;     
+    transform: scale(1.05);        
+}
+
+
+.event-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.event-card h3 {
+  margin-top: 0;
+  color: #3a86ff;
+}
+
+.event-card p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+#sponsors {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#sponsors h2 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+
+.sponsor-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sponsor-card h3 {
+  margin-top: 0;
+  color: #3a86ff;
+}
+
+.sponsor-card p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+  
+#register-section {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#register-section h2 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+
+.register-card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.registration-form label {
+  font-weight: 600;
+  color: #333;
+}
+
+.registration-form input,
+.registration-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.registration-form input:focus,
+.registration-form select:focus {
+  border-color: #3a86ff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(58,134,255,0.4);
+}
+
+
+.custom-footer {
+    background-color: #007bff; 
+    margin-top: 4rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.custom-footer .footer-content {
+    max-width: 1200px;
+    margin: auto;
+    color: #e0e7ff; 
+    font-size: 0.9rem;
+}
+
+.custom-footer .register-link {
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+
+.why-join {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+/* Heading */
+.why-join h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+
+.why-join .intro {
+    font-size: 1rem;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+.why-join .benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.why-join .benefits li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    color: #334155;
+}
+.why-join .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #007bff; 
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+
+
+.custom-logo-box {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 0.5rem; 
+    border-radius: 0.5rem; 
+    margin-right: 0.75rem; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-logo-icon {
+    font-size: 1.5rem; 
+}
+
+
+.speakers {
+  padding: 2.5rem 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.speakers h2 {
+  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+.speaker-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  padding: 1.3rem 1.2rem 1.5rem;
+  text-align: left;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.speaker-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 0.9rem;
+}
+
+.speaker-card h3 {
+  margin: 0 0 0.2rem;
+  font-size: 1.1rem;
+}
+
+.speaker-card .title {
+  margin: 0 0 0.6rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.speaker-card .bio {
+  margin: 0 0 0.8rem;
+  color: #444;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+.speaker-card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.speaker-card .tags span {
+  background: #eef3ff;
+ color: #007bff;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
